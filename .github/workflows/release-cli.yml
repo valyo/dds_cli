@@ -52,6 +52,7 @@ jobs:
     name: Build binary packages for the DDS CLI
     needs: build-n-publish
     runs-on: ${{ matrix.os }}
+    permissions: read-all|write-all
     strategy:
       matrix:
         include:
