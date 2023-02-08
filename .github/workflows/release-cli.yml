@@ -50,7 +50,7 @@ jobs:
 
   ddsclibinaries:
     name: Build binary packages for the DDS CLI
-    needs: build-n-publish
+    # needs: build-n-publish
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
