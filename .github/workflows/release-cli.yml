@@ -8,7 +8,7 @@ on:
   release:
     types: [published]
     branches:
-      - "master"
+      - "dev"
 jobs:
   # build-n-publish:
   #   runs-on: ubuntu-latest
